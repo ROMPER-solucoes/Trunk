@@ -1,0 +1,9 @@
+create table FERIADOS
+(
+  SEQUENCIA     INTEGER not null,
+  NOME_FEREIADO VARCHAR2(255) not null,
+  OCORRENCIA    NUMBER,
+  DIA           NUMBER,
+  MES           NUMBER,
+  ANO           NUMBER
+)
